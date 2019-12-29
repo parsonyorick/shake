@@ -83,7 +83,7 @@ module Development.Shake(
     withTempFile, withTempDir,
     withTempFileWithin, withTempDirWithin,
     -- * File rules
-    need, want, (%>), (|%>), (?>), phony, (~>), phonys,
+    need, needBS, want, (%>), (|%>), (?>), phony, (~>), phonys,
     (&%>), (&?>),
     orderOnly, orderOnlyAction,
     FilePattern, (?==), (<//>), filePattern,
